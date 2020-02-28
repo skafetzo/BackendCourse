@@ -2,9 +2,9 @@ package com.hackerrank.data.structures;
 
 import java.lang.reflect.Method;
 
+/*Solves the Generics of Data Structures */
 
     public class SolutionGenerics {
-
 
 
         public static void main( String args[] ) {

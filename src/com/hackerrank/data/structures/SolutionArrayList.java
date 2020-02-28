@@ -2,6 +2,8 @@ package com.hackerrank.data.structures;
 
 import java.util.*;
 
+/*Solves the Arraylist problem of Data Structures */
+
 public class SolutionArrayList {
 
     public static void main(String[] args) {

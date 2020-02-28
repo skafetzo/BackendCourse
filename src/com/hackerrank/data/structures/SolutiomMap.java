@@ -1,10 +1,10 @@
 package com.hackerrank.data.structures;
 
 import java.util.*;
-import java.io.*;
 
-    class SolutiomMap{
+/*Solves the Map problem of Data Structures */
 
+    class SolutiomMap {
 
         public static void main(String []args){
 

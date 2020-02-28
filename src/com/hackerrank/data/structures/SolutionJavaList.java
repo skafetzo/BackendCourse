@@ -1,11 +1,8 @@
 package com.hackerrank.data.structures;
 
-
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
+/*Solves the Java List problem of Data Structures */
 
 public class SolutionJavaList {
 
