@@ -1,5 +1,7 @@
 package com.hackerrank.object.oriented.programming;
 
+/*Solves the Inheritance I problem of Object Oriented Programming*/
+
 
 class Animal {
     void walk() {

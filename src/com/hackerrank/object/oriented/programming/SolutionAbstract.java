@@ -1,7 +1,8 @@
 package com.hackerrank.object.oriented.programming;
 
-import java.util.*;
+/*Solves the Abstract problem of Object Oriented Programming*/
 
+import java.util.*;
 
     abstract class Book {
     String title;

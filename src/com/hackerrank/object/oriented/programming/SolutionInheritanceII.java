@@ -1,5 +1,7 @@
 package com.hackerrank.object.oriented.programming;
 
+/*Solves the Inheritance II problem of Object Oriented Programming*/
+
 
 public class SolutionInheritanceII {
 

@@ -2,6 +2,8 @@ package com.hackerrank.object.oriented.programming;
 
 import java.util.*;
 
+/*Solves the Interface problem of Object Oriented Programming*/
+
 interface AdvancedArithmetic {
 
     int divisor_sum(int n);
