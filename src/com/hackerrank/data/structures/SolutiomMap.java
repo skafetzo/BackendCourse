@@ -33,6 +33,7 @@ import java.io.*;
 
                 }
             }
+            in.close();
         }
 
         private static boolean checkString(String str) {
