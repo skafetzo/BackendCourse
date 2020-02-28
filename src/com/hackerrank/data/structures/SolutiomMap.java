@@ -38,13 +38,13 @@ import java.util.*;
 
         private static boolean checkString(String str) {
             char ch;
-          //  boolean capitalFlag = false;
+
             boolean lowerCaseFlag = false;
 
             for(int i=0;i < str.length();i++) {
                 ch = str.charAt(i);
                 if (Character.isUpperCase(ch)) {
-                    return false;
+                    lowerCaseFlag =  false;
 
                 } else if (Character.isLowerCase(ch)) {
                     lowerCaseFlag = true;

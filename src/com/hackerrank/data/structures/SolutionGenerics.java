@@ -2,7 +2,7 @@ package com.hackerrank.data.structures;
 
 import java.lang.reflect.Method;
 
-/*Solves the Generics of Data Structures */
+/*Solves the Generics problem of Data Structures */
 
     public class SolutionGenerics {
 
