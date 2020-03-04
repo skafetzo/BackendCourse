@@ -49,6 +49,10 @@ public class SolutionPriorityQueue {
                 }
             }
 
+            while(studentsQueue.size()>1)
+            {
+                System.out.println(studentsQueue.poll().getName());
+            }
             List < Student > students = new ArrayList(studentsQueue);
             return students;
         }
