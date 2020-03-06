@@ -9,28 +9,41 @@ public class PerfectNumber {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        scan.close();
 
+        int n = 0;
         int aliquotSum = 0;
-
         ArrayList<Integer> divisors = new ArrayList<>();
 
-
-        divisors = findDivisors(n);
-
-        for (Integer div : divisors) {
-            aliquotSum += div;
+        try {
+            System.out.println(" Enter a positive number to check whether it is perfect.");
+            n = scan.nextInt();
+            if (n <= 0 ){
+                throw new IllegalArgumentException();
+            }
+        } catch (IllegalArgumentException e) {
+            System.out.println("Your input is not valid. Please enter a positive number!");
+            n = scan.nextInt();
         }
 
-        if (aliquotSum > n) {
-            System.out.println(Number.ABUNDANT);
-        } else if (isPrime(n) | aliquotSum < n) {
-            System.out.println(Number.DEFICIENT);
-        } else {
-            System.out.println(Number.PERFECT);
-        }
-        System.out.println(divisors);
+        if (isPrime(n)) {
+                System.out.println("The number " + n + " is " + Number.DEFICIENT);
+            } else {
+                divisors = findDivisors(n);
+
+                for (Integer div : divisors) {
+                    aliquotSum += div;
+                }
+                if (aliquotSum > n) {
+                    System.out.println("The number " + n + " is " + Number.ABUNDANT);
+                } else if ( aliquotSum < n) {
+                    System.out.println("The number " + n + " is " + Number.DEFICIENT);
+                } else {
+                    System.out.println("The number " + n + " is " + Number.PERFECT);
+                }
+            }
+
+        scan.close();
+
     }
 
     /**
